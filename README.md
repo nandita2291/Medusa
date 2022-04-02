@@ -13,5 +13,4 @@ In order to achieve this, we have developed a two stage CNN for classifying the 
 
 We have developed a mobilenetV2 based transfer learning model for performing image classification for both the stages. We found out that this model gave the best results with the lowest parameters. Then we developed a website using streamlit as our frontend language. We have also added outputs based on regional language for people to understand.  
 
-We designed a webpage using HTML, CSS and JS that contains information about our problem statement, our research work and the scope of our projec<img width="1272" alt="Screenshot 2022-04-02 at 1 14 25 PM" src="https://user-images.githubusercontent.com/71515520/161372669-fb6ee798-c476-4dab-b483-97858150a2a0.png">
-t.
+We designed a webpage using HTML, CSS and JS that contains information about our problem statement, our research work and the scope of our project.
