@@ -34,12 +34,15 @@ We designed a webpage using HTML, CSS and JS that contains information about our
 <img width="956" alt="image" src="https://user-images.githubusercontent.com/71515520/161373160-2e453dcd-fb72-4bb5-9895-70b5fbb4e136.png">
 
 **Architecture Diagram**
+
 <img width="427" alt="image" src="https://user-images.githubusercontent.com/71515520/161373312-6a98f381-73cc-4679-9d2d-654c1c5592e0.png">
 
 **ROC Curve for Individual Classes**
+
 <img width="686" alt="image" src="https://user-images.githubusercontent.com/71515520/161373343-50e3a06d-f858-41a0-8537-a9ededc7532d.png">
 
 **Evaluation Metrics for MobileNetV2**
+
 <img width="789" alt="image" src="https://user-images.githubusercontent.com/71515520/161373362-6b2bd8c9-947f-4167-89bf-da704cbb79ac.png">
 
 
