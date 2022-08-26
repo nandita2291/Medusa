@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fc5121c63e024f19bb8542eb429a22be {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_fc5121c63e024f19bb8542eb429a22be" ></div>
+        
+</body>
+<script>    
+    
+            var map_fc5121c63e024f19bb8542eb429a22be = L.map(
+                "map_fc5121c63e024f19bb8542eb429a22be",
+                {
+                    center: [11.1271, 78.6569],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_85067cc5cd184f8e9279646f6f37ad09 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var marker_0adbbee1d8ec4472ba05f880c898fc0d = L.marker(
+                [13.06385613, 80.17336134],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_d35c4310c1eb4e358a9c81a04c4a5457 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "name": "My Green Bin-greenrich India grow private limited", "prefix": "glyphicon"}
+            );
+            marker_0adbbee1d8ec4472ba05f880c898fc0d.setIcon(icon_d35c4310c1eb4e358a9c81a04c4a5457);
+        
+    
+            var marker_db033dcdd7604100aff319731954ea52 = L.marker(
+                [13.07085752, 80.2031296],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_1081497ab4584aa4ac3cd373cf410e09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "name": "Industrial Waste Management Association", "prefix": "glyphicon"}
+            );
+            marker_db033dcdd7604100aff319731954ea52.setIcon(icon_1081497ab4584aa4ac3cd373cf410e09);
+        
+    
+            var marker_2d322e4fa5b7468a9c5b3d4be88848bc = L.marker(
+                [13.13552379, 80.26956616],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_cffcacc26c3243ecaba540d14b1c286a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "name": "Chennai Corporation Dump Yard", "prefix": "glyphicon"}
+            );
+            marker_2d322e4fa5b7468a9c5b3d4be88848bc.setIcon(icon_cffcacc26c3243ecaba540d14b1c286a);
+        
+    
+            var marker_ce2b808706714b779abab6340f223d21 = L.marker(
+                [12.99121161, 80.24183433],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_6e74a2e0b57343d5802ac6039c38bb79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "name": "Waste Chakra Pvt Ltd - Plastic Pyrolysis Plant Plastic Recycling services", "prefix": "glyphicon"}
+            );
+            marker_ce2b808706714b779abab6340f223d21.setIcon(icon_6e74a2e0b57343d5802ac6039c38bb79);
+        
+    
+            var marker_10922062029e4a45ab3183f290857814 = L.marker(
+                [13.16088005, 80.302717],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_41bdbd2f0a4b4606ae482e147cfa6350 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "name": "E.R.VENTURES", "prefix": "glyphicon"}
+            );
+            marker_10922062029e4a45ab3183f290857814.setIcon(icon_41bdbd2f0a4b4606ae482e147cfa6350);
+        
+    
+            var marker_c9da86ab4f5b4d499564e3a3598faaf0 = L.marker(
+                [12.96546482, 80.26231506],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_ef8adc4865e0455fbcdfee3ea5bd6f39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "name": "Carbon Loops", "prefix": "glyphicon"}
+            );
+            marker_c9da86ab4f5b4d499564e3a3598faaf0.setIcon(icon_ef8adc4865e0455fbcdfee3ea5bd6f39);
+        
+    
+            var marker_764823d2167f4e968a1b6848058f4812 = L.marker(
+                [13.40682419, 80.09956178],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_fdcd239f8fbc4e9299152dab2da8ba17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "name": "Tamil Nadu Waste Management Limited", "prefix": "glyphicon"}
+            );
+            marker_764823d2167f4e968a1b6848058f4812.setIcon(icon_fdcd239f8fbc4e9299152dab2da8ba17);
+        
+    
+            var marker_03ac04627ec04b69975d9e0316280322 = L.marker(
+                [12.98999831, 80.22727891],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_16856146333d4940b3d0f28a336508d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "name": "Indo German Centre For Sustainability", "prefix": "glyphicon"}
+            );
+            marker_03ac04627ec04b69975d9e0316280322.setIcon(icon_16856146333d4940b3d0f28a336508d4);
+        
+    
+            var marker_c854672d90924c298efe79142712e076 = L.marker(
+                [13.04875518, 80.14206338],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_2486f2fa7b1747e4b377e283ec746990 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "name": "Godwill Energy Products Private Limited", "prefix": "glyphicon"}
+            );
+            marker_c854672d90924c298efe79142712e076.setIcon(icon_2486f2fa7b1747e4b377e283ec746990);
+        
+    
+            var marker_71d734b851f74ff582d1041b3c50f9cf = L.marker(
+                [13.03456869, 80.24662655],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_d0c2ae42a69f4e7c9a988dac9bcc4a68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "name": "Chennai Centre for China Studies", "prefix": "glyphicon"}
+            );
+            marker_71d734b851f74ff582d1041b3c50f9cf.setIcon(icon_d0c2ae42a69f4e7c9a988dac9bcc4a68);
+        
+    
+            var marker_4b6441c471c3440ca6b1b42cc7d9bc61 = L.marker(
+                [12.98033827, 80.24992998],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_4e9f487d158341e7b28090341b986a2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "name": "Apollo Proton Cancer Centre", "prefix": "glyphicon"}
+            );
+            marker_4b6441c471c3440ca6b1b42cc7d9bc61.setIcon(icon_4e9f487d158341e7b28090341b986a2e);
+        
+    
+            var marker_af53d13a2a024b51b273193baaba59ba = L.marker(
+                [13.07598106, 80.2364719],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_330dd27a0edd431cb1fbafbf49abdcf8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "name": "Calderys India Refractories Ltd", "prefix": "glyphicon"}
+            );
+            marker_af53d13a2a024b51b273193baaba59ba.setIcon(icon_330dd27a0edd431cb1fbafbf49abdcf8);
+        
+    
+            var marker_4aed7398208e41cc9425c3be281d8d01 = L.marker(
+                [13.18922581, 80.26643511],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_dee0beddd20e425397098abdd17aefd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "name": "Natco Pharma Limited", "prefix": "glyphicon"}
+            );
+            marker_4aed7398208e41cc9425c3be281d8d01.setIcon(icon_dee0beddd20e425397098abdd17aefd8);
+        
+    
+            var marker_c8254455cd7545438eb2b51f0b9b0906 = L.marker(
+                [13.06181508, 80.24710645],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_b01fb4d9b9b84fa4b0d61202040cd94b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "name": "Navneeth Raghavan(Daily Dump Partner)", "prefix": "glyphicon"}
+            );
+            marker_c8254455cd7545438eb2b51f0b9b0906.setIcon(icon_b01fb4d9b9b84fa4b0d61202040cd94b);
+        
+    
+            var marker_cb2e88027bc84c2797309d39ef54b182 = L.marker(
+                [13.0177635, 80.1567704],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_7924b1ca1bc84fc59201597b3d7abd96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "name": "Compost Yard", "prefix": "glyphicon"}
+            );
+            marker_cb2e88027bc84c2797309d39ef54b182.setIcon(icon_7924b1ca1bc84fc59201597b3d7abd96);
+        
+    
+            var marker_3c41695e30aa404ca8a933f3a2e98d9b = L.marker(
+                [12.98023575, 80.16438815],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_f12cf253ba5144a28bc737191a546dd0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "name": "Natural Fertilizer And Vermi Compost Yard And Sales Depot", "prefix": "glyphicon"}
+            );
+            marker_3c41695e30aa404ca8a933f3a2e98d9b.setIcon(icon_f12cf253ba5144a28bc737191a546dd0);
+        
+    
+            var marker_071fd3fe7c934574917384c2dd118acf = L.marker(
+                [13.00117377, 80.25388238],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_49a7241563f94d2ea9c7c3ed91528c29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "name": "Parisudh Eco Concepts Private Limited", "prefix": "glyphicon"}
+            );
+            marker_071fd3fe7c934574917384c2dd118acf.setIcon(icon_49a7241563f94d2ea9c7c3ed91528c29);
+        
+    
+            var marker_1385ac5ce4214670b52b8090865a593a = L.marker(
+                [12.92593157, 80.18268597],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_d7fdcf5b05e344e8ba1117a62d17aada = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "name": "MyOwnGarden Agri Products", "prefix": "glyphicon"}
+            );
+            marker_1385ac5ce4214670b52b8090865a593a.setIcon(icon_d7fdcf5b05e344e8ba1117a62d17aada);
+        
+    
+            var marker_720cae71823e4025a2119b46d6a90337 = L.marker(
+                [13.03508109, 80.25223803],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_03241c86024545ef803560320e14a9b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "name": "The Garden Store Chennai", "prefix": "glyphicon"}
+            );
+            marker_720cae71823e4025a2119b46d6a90337.setIcon(icon_03241c86024545ef803560320e14a9b6);
+        
+    
+            var marker_ac8b3166907e4cb2b220efee0dad2ad3 = L.marker(
+                [12.96398054, 80.18675234],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_e045344b987d4371b03c5dec11422be2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "name": "VNS Enviro Biotechq Private Limited", "prefix": "glyphicon"}
+            );
+            marker_ac8b3166907e4cb2b220efee0dad2ad3.setIcon(icon_e045344b987d4371b03c5dec11422be2);
+        
+    
+            var marker_73c11f3193e34bc7a3762550757a0c95 = L.marker(
+                [13.48311872, 80.10406491],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_7ae40554385042119128f631b7779df3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "name": "SPH Enterprises", "prefix": "glyphicon"}
+            );
+            marker_73c11f3193e34bc7a3762550757a0c95.setIcon(icon_7ae40554385042119128f631b7779df3);
+        
+    
+            var marker_9d182efca2aa4cb1aad3c0adc9bd26df = L.marker(
+                [12.99487445, 80.25354022],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_75288d2e90f14e618725f15e877392c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "name": "Namma Boomi", "prefix": "glyphicon"}
+            );
+            marker_9d182efca2aa4cb1aad3c0adc9bd26df.setIcon(icon_75288d2e90f14e618725f15e877392c0);
+        
+    
+            var marker_33d8bc0178324ffc993412e417871be9 = L.marker(
+                [13.10893717, 80.09594291],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_ff79ff2f0c164490bfb47a92ef99c25a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "name": "LSN Vermicompost", "prefix": "glyphicon"}
+            );
+            marker_33d8bc0178324ffc993412e417871be9.setIcon(icon_ff79ff2f0c164490bfb47a92ef99c25a);
+        
+    
+            var marker_0802e5b5c830429ca70b179cfb3be221 = L.marker(
+                [12.91330239, 80.08461968],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_3601bcb5434848a5bbf31a6a2725fde6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "name": "AnushikA Agri Products Vermicompost Garden Center", "prefix": "glyphicon"}
+            );
+            marker_0802e5b5c830429ca70b179cfb3be221.setIcon(icon_3601bcb5434848a5bbf31a6a2725fde6);
+        
+    
+            var marker_efaf3e38eead472fb14a001fba43bfad = L.marker(
+                [12.86417606, 80.20690287],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_abfb6202897049f4afc863199af0d91e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "name": "WasteWing Technologies", "prefix": "glyphicon"}
+            );
+            marker_efaf3e38eead472fb14a001fba43bfad.setIcon(icon_abfb6202897049f4afc863199af0d91e);
+        
+    
+            var marker_ee6a435550584421b311f538fbeae4f9 = L.marker(
+                [12.9420349, 80.14522727],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_051e0b49577b409f9c7c64e1fa704a66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "name": "Sree Ram Eco Systems", "prefix": "glyphicon"}
+            );
+            marker_ee6a435550584421b311f538fbeae4f9.setIcon(icon_051e0b49577b409f9c7c64e1fa704a66);
+        
+    
+            var marker_c9eb7de6b1664c8786b57d88c28bf5be = L.marker(
+                [12.93456595, 80.18286291],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_dea99ec441da49bb8c83723cceb1b868 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "name": "Vignesh Aravind Transports", "prefix": "glyphicon"}
+            );
+            marker_c9eb7de6b1664c8786b57d88c28bf5be.setIcon(icon_dea99ec441da49bb8c83723cceb1b868);
+        
+    
+            var marker_dd666a6c852d47ec9bac018f69888576 = L.marker(
+                [12.95245155, 80.15707484],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_2e6e56ad682e4458b7e6a074a95220f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "name": "RK Pattarai", "prefix": "glyphicon"}
+            );
+            marker_dd666a6c852d47ec9bac018f69888576.setIcon(icon_2e6e56ad682e4458b7e6a074a95220f2);
+        
+    
+            var marker_a2033f420ae04ab69cc6b957aec64683 = L.marker(
+                [13.05557607, 80.21344877],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_46d1239170a44d3aa10e9b72981b4551 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "name": "SKV E-waste Recycling", "prefix": "glyphicon"}
+            );
+            marker_a2033f420ae04ab69cc6b957aec64683.setIcon(icon_46d1239170a44d3aa10e9b72981b4551);
+        
+    
+            var marker_d199091f1c464301b40b835dd7a3f379 = L.marker(
+                [13.080347, 80.22207118],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_6c896fe8edd24ece81a6eee4e78d5ec9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "name": "RK E-waste Collection and Recycling Centre", "prefix": "glyphicon"}
+            );
+            marker_d199091f1c464301b40b835dd7a3f379.setIcon(icon_6c896fe8edd24ece81a6eee4e78d5ec9);
+        
+    
+            var marker_0de0359fcaf944b5a2b0c886b50ba820 = L.marker(
+                [13.13071151, 80.21244839],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_b9e7c5a229db40538100760b29b71854 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "name": "Electronic Waste Company", "prefix": "glyphicon"}
+            );
+            marker_0de0359fcaf944b5a2b0c886b50ba820.setIcon(icon_b9e7c5a229db40538100760b29b71854);
+        
+    
+            var marker_c74c856444114b5089dcbd294ed13aae = L.marker(
+                [13.00642672, 80.22474359],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_4c100b81a33943b5b56ea29770b8e075 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "name": "Sree E Waste Recycling", "prefix": "glyphicon"}
+            );
+            marker_c74c856444114b5089dcbd294ed13aae.setIcon(icon_4c100b81a33943b5b56ea29770b8e075);
+        
+    
+            var marker_29cdf9442cb54a7891711461e01fb1fe = L.marker(
+                [13.0827896, 80.19990504],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_90b85beed8294b15a100340422dc571b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "name": "SEZ Recycling", "prefix": "glyphicon"}
+            );
+            marker_29cdf9442cb54a7891711461e01fb1fe.setIcon(icon_90b85beed8294b15a100340422dc571b);
+        
+    
+            var marker_e6f8261bf04f4e05a370f12adef745ef = L.marker(
+                [13.10824272, 80.16111627],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_d14cafd12a694ec1877c47cd02a7fc1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "name": "Ecosible Recyclers Pvt Ltd", "prefix": "glyphicon"}
+            );
+            marker_e6f8261bf04f4e05a370f12adef745ef.setIcon(icon_d14cafd12a694ec1877c47cd02a7fc1c);
+        
+    
+            var marker_6ace58cd945e4343af42db2112578039 = L.marker(
+                [13.06860572, 80.26938825],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_6a4fcb551e1147e0a7fc969842c40b4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "name": "E-waste collection vendor", "prefix": "glyphicon"}
+            );
+            marker_6ace58cd945e4343af42db2112578039.setIcon(icon_6a4fcb551e1147e0a7fc969842c40b4e);
+        
+    
+            var marker_d8841d2ac48f4009a366d7d0d9b76136 = L.marker(
+                [13.09086114, 80.19534935],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_d37a74f305264b0f8e9d68a7232a09f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "name": "Royal Traders-computer E-waste scrap and IT Scrap Buyers", "prefix": "glyphicon"}
+            );
+            marker_d8841d2ac48f4009a366d7d0d9b76136.setIcon(icon_d37a74f305264b0f8e9d68a7232a09f6);
+        
+    
+            var marker_0fdfcefe49fd49eea9a247aecb84f59f = L.marker(
+                [13.02722135, 80.27183258],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_7679e827b6614e5da7b55206cf47d772 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "name": "Earth Sense Recycle Pvt. Ltd.", "prefix": "glyphicon"}
+            );
+            marker_0fdfcefe49fd49eea9a247aecb84f59f.setIcon(icon_7679e827b6614e5da7b55206cf47d772);
+        
+    
+            var marker_733f3cd93acf44688303dfa757bdc2b1 = L.marker(
+                [13.09320349, 80.16088951],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_219667bb870b4b9c9607f2aa48161aba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "name": "Genbruge Solutions Pvt Ltd", "prefix": "glyphicon"}
+            );
+            marker_733f3cd93acf44688303dfa757bdc2b1.setIcon(icon_219667bb870b4b9c9607f2aa48161aba);
+        
+    
+            var marker_c87af5e17c2d482f885fc4341804d4a5 = L.marker(
+                [13.02371825, 80.22371797],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_08714cd4805f4af9891533d6afeae80a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "name": "e waste-scrap", "prefix": "glyphicon"}
+            );
+            marker_c87af5e17c2d482f885fc4341804d4a5.setIcon(icon_08714cd4805f4af9891533d6afeae80a);
+        
+    
+            var marker_5ef6fca692ef4a58a07dc682a246d91d = L.marker(
+                [13.08857744, 80.28237091],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_45f71d36ea3045758be73b89d4232448 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "name": "Earth Recycler Private Ltd", "prefix": "glyphicon"}
+            );
+            marker_5ef6fca692ef4a58a07dc682a246d91d.setIcon(icon_45f71d36ea3045758be73b89d4232448);
+        
+    
+            var marker_d131a56c4a7a4ae3b265a0abb2b12d11 = L.marker(
+                [12.99271565, 80.20359593],
+                {}
+            ).addTo(map_fc5121c63e024f19bb8542eb429a22be);
+        
+    
+            var icon_e9ef2e96b9e245bfad5a3a90996efb57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "name": "E-Clean Enterprises", "prefix": "glyphicon"}
+            );
+            marker_d131a56c4a7a4ae3b265a0abb2b12d11.setIcon(icon_e9ef2e96b9e245bfad5a3a90996efb57);
+        
+</script>
